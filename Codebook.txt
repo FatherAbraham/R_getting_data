@@ -1,0 +1,7 @@
+This is the Codebook for "Tidy Data Set.csv"
+
+The data set shows a summary of average sensor values for a range of six activities for 30 subjects.  This is produced by run_analysis.R, a script which sources the data locally, ingests, merges, reduces, tidies up, and summarizes, before writing out to a csv file.
+
+Column 1: Activity Type:  variable has six values: walking/walking upstairs/walking downstairs/laying/sitting/standing.  
+Column 2: Subject_ID:  variable has 30 values, 1-30; anonymized entry for the grouping of the different sensor signals by subject
+Column 3 - 88:  Sensor signals, with an emphasis on an any entry that has "mean" (mean) or "std" (standard deviation) in the column name.  We then take the average (arithmetic mean) for each value.
